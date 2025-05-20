@@ -23,7 +23,7 @@ const imageSpans = [
     "row-span-1 col-span-1", // imagen 7 pequeña
 ];
 
-export const Work = () => {
+export default function Work() {
     const [modalOpen, setModalOpen] = useState(false);
     const [current, setCurrent] = useState(0);
 
@@ -97,6 +97,4 @@ export const Work = () => {
             )}
         </div>
     );
-};
-
-export default Work;
+}
