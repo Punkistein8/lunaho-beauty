@@ -35,7 +35,7 @@ const Slogan = () => {
 
     return (
         <div
-            className={`absolute top-[250px] left-20 font-bold text-black text-[70px] md:text-[120px] lg:text-[155px] leading-[normal] transition-all duration-500 ${khula.className}`}
+            className={`absolute top-[200px] md:top-[250px] left-10 md:left-20 font-bold text-black text-[60px] md:text-[120px] lg:text-[155px] leading-[normal] transition-all duration-500 ${khula.className}`}
         >
             <AnimatePresence mode="wait">
                 {show && (

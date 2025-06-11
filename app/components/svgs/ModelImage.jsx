@@ -12,10 +12,10 @@ const height = 480;
 export default function ModelImage() {
     return (
         <motion.div
-            className="absolute overflow-hidden right-16 top-[20vh]"
+            className="absolute overflow-hidden md:right-16 md:top-[20vh]"
             style={{
                 width: `${width}px`,
-                height: `${height}px`,
+                height: `${height}px`,  
                 WebkitClipPath: `path('${blobPath}')`,
                 clipPath: `path('${blobPath}')`,
             }}
