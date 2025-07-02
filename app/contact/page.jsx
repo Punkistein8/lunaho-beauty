@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Contact() {
     return (
-        <div className="bg-[#fffbef] flex flex-col items-center justify-center w-full my-[12vh] overflow-hidden">
+        <div className="bg-[#fffbef] flex flex-col items-center justify-center w-full my-[24vh] overflow-hidden">
 
             <div className="relative z-10 w-full max-w-3xl mx-auto flex flex-col items-center justify-center">
                 <form

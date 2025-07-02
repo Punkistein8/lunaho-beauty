@@ -11,7 +11,7 @@ const khula = Khula({
 
 export default function About() {
     return (
-        <div className="min-h-screen bg-[#fffbef] flex items-center justify-center overflow-hidden">
+        <div className="min-h-screen bg-[#fffbef] flex items-center justify-center overflow-hidden my-28">
             <FrameAbout />
 
             <div className="relative z-10 flex flex-col md:flex-row items-center justify-center w-full max-w-6xl px-4 py-20 gap-8 md:gap-16">

@@ -11,7 +11,7 @@ const khula = Khula({
 });
 
 const PageTitle = () => (
-    <div className="absolute left-20 select-none">
+    <div className="absolute left-20 top-20 md:top-0 md:left-20 select-none">
         <div
             className={`font-normal max-h-21 text-black text-[78px] leading-[normal] ${ephesis.className}`}
         >

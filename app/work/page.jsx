@@ -45,7 +45,7 @@ export default function Work() {
     };
 
     return (
-        <div className="bg-[#fffbef] min-h-screen flex flex-col items-center justify-center w-full">
+        <div className="bg-[#fffbef] min-h-screen flex flex-col items-center justify-center w-full my-20">
             <FrameWork />
 
             <div className="grid grid-cols-2 md:grid-cols-4 auto-rows-[180px] md:auto-rows-[220px] gap-4 z-10 mt-28 w-full max-w-6xl px-4">
