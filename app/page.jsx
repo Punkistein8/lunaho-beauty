@@ -1,7 +1,7 @@
 'use client'
 import React from "react";
 import Frame from "./components/svgs/FrameHome.jsx";
-import ModelImage from "./components/svgs/ModelImage.jsx";
+import ModelImage from "./components/homeImage/ModelImage.jsx";
 import Slogan from "./components/slogan/Slogan.jsx";
 
 export default function Home() {

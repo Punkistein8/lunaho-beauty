@@ -9,7 +9,7 @@ const blobPath =
 const width = 480;
 const height = 480;
 
-export default function ModelImage() {
+export default function ModelImageSVGMotion() {
     return (
         <motion.div
             className="absolute overflow-hidden md:right-16 md:top-[20vh]"

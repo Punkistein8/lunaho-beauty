@@ -1,18 +1,18 @@
 'use client'
-import { Khula } from "next/font/google";
+import { Tenor_Sans } from "next/font/google";
 import { useState, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
-const khula = Khula({
-    subsets: ["latin"],
-    weight: "700",
+const tenorSans = Tenor_Sans({
+    subsets: ["cursive"],
+    weight: "400",
 });
 
 // Lista de frases con saltos de línea usando \n
 const phrases = [
     "Beauty,\nelevated to art",
-    "Inspiring\nyour confidence",
-    "Makeup\nis magic",
+    "Inspiring your\nconfidence",
+    "Makeup is\nmagic",
     "Unleash\nyour beauty",
 ];
 
@@ -35,7 +35,7 @@ const Slogan = () => {
 
     return (
         <div
-            className={`absolute top-[200px] md:top-[250px] left-10 md:left-20 font-bold text-black text-[60px] md:text-[120px] lg:text-[155px] leading-[normal] transition-all duration-500 ${khula.className}`}
+            className={`absolute top-[200px] md:top-[250px] left-10 md:left-20 font-bold text-black text-[60px] md:text-[120px] lg:text-[155px] leading-[normal] transition-all duration-500 ${tenorSans.className}`}
         >
             <AnimatePresence mode="wait">
                 {show && (

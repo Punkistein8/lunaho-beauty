@@ -1,31 +1,56 @@
 'use client'
 import { useState } from "react";
+import { useSearchParams } from "next/navigation";
 import FrameWork from "../components/svgs/FrameWork.jsx";
 
-// Lista de imágenes en public/
-const images = [
-    "/img1.jpeg",
-    "/img2.jpeg",
-    "/img3.jpeg",
-    "/img4.png",
-    "/img5.png",
-    "/img6.png",
-    "/img7.png",
-];
+// Imágenes por categoría
+const imagesByCategory = {
+    editorial: [
+        "/img1.jpeg",
+        "/img2.jpeg",
+        "/img3.jpeg",
+    ],
+    social: [
+        "/img4.png",
+        "/img5.png",
+    ],
+    fashion: [
+        "/img6.png",
+        "/img7.png",
+    ],
+    bridal: [
+        "/img1.jpeg",
+        "/img7.png",
+    ],
+    all: [
+        "/img1.jpeg",
+        "/img2.jpeg",
+        "/img3.jpeg",
+        "/img4.png",
+        "/img5.png",
+        "/img6.png",
+        "/img7.png",
+    ]
+};
 
 const imageSpans = [
-    "row-span-2 col-span-2", // imagen 1 grande
-    "row-span-2 col-span-1", // imagen 2 alta
-    "row-span-1 col-span-1", // imagen 3 pequeña
-    "row-span-2 col-span-1", // imagen 4 alta
-    "row-span-1 col-span-2", // imagen 5 ancha
-    "row-span-1 col-span-1", // imagen 6 pequeña
-    "row-span-1 col-span-1", // imagen 7 pequeña
+    "row-span-2 col-span-2",
+    "row-span-2 col-span-1",
+    "row-span-1 col-span-1",
+    "row-span-2 col-span-1",
+    "row-span-1 col-span-2",
+    "row-span-1 col-span-1",
+    "row-span-1 col-span-1",
 ];
 
 export default function Work() {
     const [modalOpen, setModalOpen] = useState(false);
     const [current, setCurrent] = useState(0);
+    const searchParams = useSearchParams();
+    const cat = searchParams.get("cat");
+
+    // Selecciona imágenes según la categoría, o todas si no hay categoría
+    const images = imagesByCategory[cat] || imagesByCategory.all;
 
     const openModal = (idx) => {
         setCurrent(idx);
@@ -51,10 +76,10 @@ export default function Work() {
             <div className="grid grid-cols-2 md:grid-cols-4 auto-rows-[180px] md:auto-rows-[220px] gap-4 z-10 mt-28 w-full max-w-6xl px-4">
                 {images.map((src, idx) => (
                     <img
-                        key={src}
+                        key={src + idx}
                         src={src}
                         alt={`work-${idx}`}
-                        className={`object-cover rounded-lg cursor-pointer shadow-md hover:scale-105 transition duration-300 filter grayscale sepia-[0.3] hover:filter-none w-full h-full ${imageSpans[idx % imageSpans.length]}`}
+                        className={`object-cover rounded-lg cursor-pointer shadow-md hover:scale-105 transition duration-300 filter grayscale hover:filter-none w-full h-full ${imageSpans[idx % imageSpans.length]}`}
                         onClick={() => openModal(idx)}
                         style={{ aspectRatio: "3/4" }}
                     />

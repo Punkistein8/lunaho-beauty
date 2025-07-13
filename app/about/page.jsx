@@ -2,11 +2,11 @@
 import FrameAbout from "../components/svgs/FrameAbout.jsx";
 import aboutPhoto from "../../public/about-photo.png";
 import Image from "next/image";
-import { Khula } from "next/font/google";
+import { Tenor_Sans } from "next/font/google";
 
-const khula = Khula({
+const tenorSans = Tenor_Sans({
     subsets: ["latin"],
-    weight: "300",
+    weight: "400",
 });
 
 export default function About() {
@@ -16,7 +16,7 @@ export default function About() {
 
             <div className="relative z-10 flex flex-col md:flex-row items-center justify-center w-full max-w-6xl px-4 py-20 gap-8 md:gap-16">
                 {/* Texto */}
-                <div className={`bg-[#e6beae]/70 rounded-xl p-8 md:p-10 shadow-lg max-w-xl w-full ${khula.className}`}>
+                <div className={`bg-[#e6beae]/70 rounded-xl p-8 md:p-10 shadow-lg max-w-xl w-full text-justify ${tenorSans.className}`}>
                     <h1 className="text-3xl md:text-4xl font-semibold mb-4">Nahomy Granja</h1>
                     <p className="text-base md:text-lg text-black mb-4">
                         I am an Ecuadorian artist based in New York. My bold, minimal style always springs from a strong narrative core and is intended to provoke the imagination – with a bit of humour, a touch of sexiness, and a re-imagination of the ordinary.
