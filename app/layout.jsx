@@ -5,6 +5,7 @@ import "./globals.css";
 import Navbar from "./components/navbar/Navbar";
 import PageTitle from "./components/pagetitle/PageTitle";
 import Socials from "./components/socials/Socials";
+import { Suspense } from "react";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,8 +24,9 @@ export default function RootLayout({ children }) {
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <PageTitle />
         <Navbar />
-
-            {children}
+        <Suspense fallback={<div className="min-h-screen flex items-center justify-center">Cargando...</div>}>
+          {children}
+        </Suspense>
 
         <Socials />
       </body>
