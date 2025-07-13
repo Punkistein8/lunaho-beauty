@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
 const tenorSans = Tenor_Sans({
-    subsets: ["cursive"],
+    subsets: ["cyrillic"],
     weight: "400",
 });
 
