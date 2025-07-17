@@ -11,10 +11,10 @@ const navItems = [
 ];
 
 const workCategories = [
-    { label: "Editorial", value: "editorial" },
-    { label: "Social", value: "social" },
-    { label: "Fashion", value: "fashion" },
-    { label: "Bridal", value: "bridal" },
+    { label: "no makeup look", value: "no_makeup_look" },
+    { label: "weeding", value: "weeding" },
+    { label: "special events", value: "special_events" },
+    { label: "fx makeup", value: "fx_makeup" },
 ];
 
 const Navbar = () => {

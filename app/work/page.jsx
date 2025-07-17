@@ -5,22 +5,33 @@ import FrameWork from "../components/svgs/FrameWork.jsx";
 
 // Imágenes por categoría
 const imagesByCategory = {
-    editorial: [
-        "/img1.jpeg",
-        "/img2.jpeg",
-        "/img3.jpeg",
+    no_makeup_look: [
+        "/no_makeup_look_1.jpeg",
+        "/no_makeup_look_2.jpeg",
+        "/no_makeup_look_3.jpeg",
+        "/no_makeup_look_4.jpeg",
+        "/no_makeup_look_5.jpeg",
+        "/no_makeup_look_6.jpeg"
     ],
-    social: [
-        "/img4.png",
-        "/img5.png",
+    weeding: [
+        "/weeding_1.jpeg",
+        "/weeding_2.jpeg",
+        "/weeding_3.jpeg",
     ],
-    fashion: [
-        "/img6.png",
-        "/img7.png",
+    special_events: [
+        "/spec_events_1.jpeg",
+        "/spec_events_2.jpeg",
+        "/spec_events_3.jpeg",
+        "/spec_events_4.jpeg",
+        "/spec_events_5.jpeg"
     ],
-    bridal: [
-        "/img1.jpeg",
-        "/img7.png",
+    fx_makeup: [
+        "/fx_makeup_1.jpeg",
+        "/fx_makeup_2.jpeg",
+        "/fx_makeup_3.jpeg",
+        "/fx_makeup_4.jpeg",
+        "/fx_makeup_5.jpeg",
+        "/fx_makeup_6.jpeg"
     ],
     all: [
         "/img1.jpeg",
