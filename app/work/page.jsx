@@ -18,7 +18,7 @@ const imagesByCategory = {
         "/weeding_2.jpeg",
         "/weeding_3.jpeg",
     ],
-    special_events: [
+    social_makeup: [
         "/spec_events_1.jpeg",
         "/spec_events_2.jpeg",
         "/spec_events_3.jpeg",
@@ -90,7 +90,7 @@ export default function Work() {
                         key={src + idx}
                         src={src}
                         alt={`work-${idx}`}
-                        className={`object-cover rounded-lg cursor-pointer shadow-md hover:scale-105 transition duration-300 filter grayscale hover:filter-none w-full h-full ${imageSpans[idx % imageSpans.length]}`}
+                        className={`object-cover rounded-lg cursor-pointer shadow-md hover:scale-105 transition duration-300  w-full h-full ${imageSpans[idx % imageSpans.length]}`}
                         onClick={() => openModal(idx)}
                         style={{ aspectRatio: "3/4" }}
                     />

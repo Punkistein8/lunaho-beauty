@@ -13,7 +13,7 @@ const navItems = [
 const workCategories = [
     { label: "no makeup look", value: "no_makeup_look" },
     { label: "weeding", value: "weeding" },
-    { label: "special events", value: "special_events" },
+    { label: "social makeup", value: "social_makeup" },
     { label: "fx makeup", value: "fx_makeup" },
 ];
 
@@ -91,13 +91,13 @@ const Navbar = () => {
                         </button>
                         {showSubmenu && (
                             <div
-                                className="absolute left-1/2 -translate-x-1/2 mt-2 bg-white rounded-xl shadow-lg py-2 px-4 flex flex-col gap-1 min-w-[140px] z-50"
+                                className="absolute left-1/2 -translate-x-1/2 mt-2 bg-white rounded-xl shadow-lg py-2 px-4 flex flex-col gap-1 min-w-[180px] z-50"
                             >
                                 {workCategories.map((cat) => (
                                     <button
                                         key={cat.value}
                                         onClick={() => handleCategoryClick(cat)}
-                                        className="text-black text-base px-3 py-1 rounded-lg hover:bg-[#e6beae]/40 transition cursor-pointer"
+                                        className="text-black text-[14px] md:text-balance px-3 py-1 rounded-lg hover:bg-[#e6beae]/40 transition cursor-pointer"
                                     >
                                         {cat.label}
                                     </button>

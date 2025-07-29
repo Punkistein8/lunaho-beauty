@@ -19,11 +19,10 @@ export default function About() {
                 <div className={`bg-[#e6beae]/70 rounded-xl p-8 md:p-10 shadow-lg max-w-xl w-full text-justify ${tenorSans.className}`}>
                     <h1 className="text-3xl md:text-4xl font-semibold mb-4">Nahomy Granja</h1>
                     <p className="text-base md:text-lg text-black mb-4">
-                        I am an Ecuadorian artist based in New York. My bold, minimal style always springs from a strong narrative core and is intended to provoke the imagination – with a bit of humour, a touch of sexiness, and a re-imagination of the ordinary.
-                    </p>
-                    <p className="text-base md:text-lg text-black">
+                        My name is Nahomy Granja, a passionate and dedicated Ecuadorian makeup artist. With three years of experience, I specialize in special effects makeup, but I also truly enjoy working with brides to enhance their natural beauty on their special day. Based in New York and available to travel to New Jersey, I offer personalized and professional services designed to make every client feel unique, pampered, and truly special.                    </p>
+                    {/* <p className="text-base md:text-lg text-black">
                         Aside from my work as an artist, I am also half of I can’t afford this but maybe she can, a curating project for all things bold and beautiful.
-                    </p>
+                    </p> */}
                 </div>
                 {/* Imagen */}
                 <div className="w-full max-w-lg md:max-w-xl aspect-square rounded-3xl overflow-hidden shadow-lg">

@@ -22,10 +22,11 @@ export default function ModelImage() {
     return (
         <motion.div
             className="
+                mt-14
                 relative
                 overflow-hidden
                 mx-auto
-                w-[160px] h-[160px]
+                w-[200px] h-[245px]
                 top-35
                 md:top-0
                 sm:w-[200px] sm:h-[200px]
