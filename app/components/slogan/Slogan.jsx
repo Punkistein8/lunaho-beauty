@@ -1,9 +1,9 @@
 'use client'
-import { Tenor_Sans } from "next/font/google";
+import { Playwrite_AU_QLD } from "next/font/google";
 import { useState, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
-const tenorSans = Tenor_Sans({
+const playwrite = Playwrite_AU_QLD({
     subsets: ["cyrillic"],
     weight: "400",
 });
@@ -35,7 +35,7 @@ const Slogan = () => {
 
     return (
         <div
-            className={`absolute top-[200px] md:top-[250px] left-10 md:left-20 font-bold text-black text-[60px] md:text-[120px] lg:text-[155px] leading-[normal] transition-all duration-500 ${tenorSans.className}`}
+            className={`absolute top-[220px] md:top-[250px] left-20 md:left-20 font-bold text-black text-[30px] md:text-[70px] lg:text-[140px] leading-[normal] transition-all duration-500 ${playwrite.className}`}
         >
             <AnimatePresence mode="wait">
                 {show && (

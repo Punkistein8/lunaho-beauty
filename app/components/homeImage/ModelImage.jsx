@@ -32,7 +32,7 @@ export default function ModelImage() {
                 sm:w-[200px] sm:h-[200px]
                 md:w-[260px] md:h-[260px]
                 lg:w-[320px] lg:h-[320px]
-                xl:w-[380px] xl:h-[380px]
+                xl:w-[450px] xl:h-[550px]
                 rounded-2xl
                 shadow-lg
             "

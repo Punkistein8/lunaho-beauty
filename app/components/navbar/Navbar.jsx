@@ -11,10 +11,11 @@ const navItems = [
 ];
 
 const workCategories = [
-    { label: "no makeup look", value: "no_makeup_look" },
     { label: "weeding", value: "weeding" },
     { label: "social makeup", value: "social_makeup" },
     { label: "fx makeup", value: "fx_makeup" },
+    { label: "editorial", value: "editorial" },
+    { label: "no makeup look", value: "no_makeup_look" },
 ];
 
 const Navbar = () => {

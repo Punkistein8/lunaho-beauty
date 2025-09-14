@@ -9,29 +9,34 @@ const imagesByCategory = {
         "/no_makeup_look_1.jpeg",
         "/no_makeup_look_2.jpeg",
         "/no_makeup_look_3.jpeg",
-        "/no_makeup_look_4.jpeg",
-        "/no_makeup_look_5.jpeg",
         "/no_makeup_look_6.jpeg"
     ],
     weeding: [
         "/weeding_1.jpeg",
         "/weeding_2.jpeg",
         "/weeding_3.jpeg",
+        "/weeding_4.jpg",
+        "/weeding_5.jpg",
     ],
     social_makeup: [
         "/spec_events_1.jpeg",
         "/spec_events_2.jpeg",
         "/spec_events_3.jpeg",
         "/spec_events_4.jpeg",
-        "/spec_events_5.jpeg"
+        "/spec_events_5.jpeg",
+        "/social_6.jpg",
+        "/social_7.jpg",
+        "/social_8.jpg",
     ],
     fx_makeup: [
-        "/fx_makeup_1.jpeg",
-        "/fx_makeup_2.jpeg",
+        "/fx_makeup_8.jpg",
         "/fx_makeup_3.jpeg",
+        "/fx_makeup_1.jpeg",
         "/fx_makeup_4.jpeg",
+        "/fx_makeup_2.jpeg",
         "/fx_makeup_5.jpeg",
-        "/fx_makeup_6.jpeg"
+        "/fx_makeup_7.jpg",
+        "/fx_makeup_6.jpeg",
     ],
     all: [
         "/img1.jpeg",
@@ -41,6 +46,15 @@ const imagesByCategory = {
         "/img5.png",
         "/img6.png",
         "/img7.png",
+    ],
+    editorial: [
+        "/editorial_1.jpg",
+        "/editorial_2.jpg",
+        "/editorial_3.jpg",
+        "/editorial_4.jpg",
+        "/editorial_5.jpg",
+        "/editorial_6.jpg",
+        "/editorial_7.jpg",
     ]
 };
 
