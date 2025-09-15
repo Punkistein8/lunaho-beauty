@@ -32,9 +32,9 @@ const imagesByCategory = {
     fx_makeup: [
         "/fx_makeup_8.jpg",
         "/fx_makeup_3.jpeg",
+        "/fx_makeup_2.jpeg",
         "/fx_makeup_1.jpeg",
         "/fx_makeup_4.jpeg",
-        "/fx_makeup_2.jpeg",
         "/fx_makeup_5.jpeg",
         "/fx_makeup_7.jpg",
         "/fx_makeup_6.jpeg",
