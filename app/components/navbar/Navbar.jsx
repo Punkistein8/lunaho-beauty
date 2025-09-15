@@ -11,7 +11,7 @@ const navItems = [
 ];
 
 const workCategories = [
-    { label: "weeding", value: "weeding" },
+    { label: "bridal", value: "bridal" },
     { label: "social makeup", value: "social_makeup" },
     { label: "fx makeup", value: "fx_makeup" },
     { label: "editorial", value: "editorial" },

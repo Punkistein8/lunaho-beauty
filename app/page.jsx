@@ -5,7 +5,7 @@ import ModelImage from "./components/homeImage/ModelImage.jsx";
 import Slogan from "./components/slogan/Slogan.jsx";
 
 const mobileImages1 = [
-  "/home/img14.jpeg", "/home/img13.jpeg", "/home/img12.jpeg", "/home/img11.jpeg", "/home/img10.jpeg"
+  "/home/img13.jpeg", "/home/img12.jpeg", "/home/img11.jpeg", "/home/img10.jpeg"
 ];
 const mobileImages2 = [
   "/home/img10.jpeg", "/home/img9.jpeg", "/home/img8.jpeg", "/home/img7.jpeg", "/home/img6.jpeg"
