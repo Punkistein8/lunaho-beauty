@@ -10,8 +10,8 @@ const playwrite = Playwrite_AU_QLD({
 
 // Lista de frases con saltos de línea usando \n
 const phrases = [
-    "Beauty,\nelevated to art",
-    "Inspiring your\nconfidence",
+    "Beauty...\nelevated to art",
+    "Inspiring\nyour confidence",
     "Makeup is\nmagic",
     "Unleash\nyour beauty",
 ];
@@ -35,7 +35,7 @@ const Slogan = () => {
 
     return (
         <div
-            className={`absolute top-[220px] md:top-[250px] left-20 md:left-20 font-bold text-black text-[30px] md:text-[70px] lg:text-[140px] leading-[normal] transition-all duration-500 ${playwrite.className}`}
+            className={`absolute top-22 md:top-[260px] right-5 md:left-20 font-bold text-right md:text-left text-black text-[30px] md:text-[70px] lg:text-[135px] leading-[normal] transition-all duration-500 ${playwrite.className}`}
         >
             <AnimatePresence mode="wait">
                 {show && (

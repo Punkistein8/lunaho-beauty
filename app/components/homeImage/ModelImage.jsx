@@ -2,22 +2,24 @@
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect } from "react";
-import model1 from "../../../public/img1.jpeg";
-import model2 from "../../../public/img2.jpeg";
-import model3 from "../../../public/img3.jpeg";
 
-const images = [model1, model2, model3];
-const INTERVAL = 5000; // ms
-
-export default function ModelImage() {
+export default function ModelImage({ images }) {
+    const defaultImages = [
+        "/img1.jpeg",
+        "/img2.jpeg",
+        "/img3.jpeg"
+    ];
+    const imgs = images && images.length ? images : defaultImages;
     const [index, setIndex] = useState(0);
 
     useEffect(() => {
-        const timer = setInterval(() => {
-            setIndex((prev) => (prev + 1) % images.length);
-        }, INTERVAL);
-        return () => clearInterval(timer);
-    }, []);
+        if (imgs.length > 1) {
+            const timer = setInterval(() => {
+                setIndex((prev) => (prev + 1) % imgs.length);
+            }, 5000);
+            return () => clearInterval(timer);
+        }
+    }, [images]);
 
     return (
         <motion.div
@@ -27,7 +29,6 @@ export default function ModelImage() {
                 overflow-hidden
                 mx-auto
                 w-[200px] h-[245px]
-                top-35
                 md:top-0
                 sm:w-[200px] sm:h-[200px]
                 md:w-[260px] md:h-[260px]
@@ -56,7 +57,7 @@ export default function ModelImage() {
                     transition={{ duration: 0.5, ease: "easeInOut" }}
                 >
                     <Image
-                        src={images[index]}
+                        src={imgs[index]}
                         alt="Model"
                         fill
                         className="object-cover w-full h-full"

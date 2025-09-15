@@ -11,14 +11,14 @@ const khula = Khula({
 });
 
 const PageTitle = () => (
-    <div className="absolute left-20 top-20 md:top-0 md:left-20 select-none">
+    <div className="absolute left-10 top-22 md:top-0 md:left-20 select-none">
         <div
-            className={`font-normal max-h-21 text-black text-[78px] leading-[normal] ${ephesis.className}`}
+            className={`font-normal max-h-21 text-black text-[40px] md:text-[78px] leading-[normal] ${ephesis.className}`}
         >
             Luna
         </div>
         <div
-            className={`font-light text-black text-lg tracking-[2.70px] leading-[normal] ${khula.className}`}
+            className={`font-light text-black text-[12px] md:text-lg tracking-[2.70px] leading-[normal] ${khula.className}`}
         >
             makeup artist
         </div>
