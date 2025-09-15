@@ -1,6 +1,6 @@
 'use client'
 import FrameAbout from "../components/svgs/FrameAbout.jsx";
-import aboutPhoto from "../../public/about-photo.png";
+import aboutPhoto from "../../public/about-photo2.jpeg";
 import Image from "next/image";
 import { Tenor_Sans } from "next/font/google";
 

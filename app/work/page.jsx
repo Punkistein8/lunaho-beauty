@@ -51,8 +51,8 @@ const imagesByCategory = {
     editorial: [
         "/editorial_1.jpg",
         "/editorial_2.jpg",
-        // "/editorial_3.jpg",
-        // "/editorial_4.jpg",
+        "/editorial_3.jpg",
+        "/editorial_4.jpg",
         "/editorial_5.jpg",
         "/editorial_6.jpg",
         "/editorial_7.jpg",
@@ -65,6 +65,7 @@ const imageSpans = [
     "row-span-1 col-span-1",
     "row-span-2 col-span-1",
     "row-span-1 col-span-2",
+    "row-span-1 col-span-1",
     "row-span-1 col-span-1",
     "row-span-1 col-span-1",
 ];
@@ -99,13 +100,13 @@ export default function Work() {
         <div className="bg-[#fffbef] min-h-screen flex flex-col items-center justify-center w-full my-20">
             <FrameWork />
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 auto-rows-[180px] md:auto-rows-[220px] gap-4 z-10 mt-28 w-full max-w-6xl px-4">
+            <div className="grid grid-cols-2 md:grid-cols-4 auto-rows-[180px] md:auto-rows-[220px] gap-4 z-10 grid-flow-dense mt-28 w-full max-w-6xl px-4">
                 {images.map((src, idx) => (
                     <img
                         key={src + idx}
                         src={src}
                         alt={`work-${idx}`}
-                        className="object-cover rounded-lg cursor-pointer shadow-md hover:scale-105 transition duration-300 w-full h-full"
+                        className={`object-cover rounded-lg cursor-pointer shadow-md hover:scale-105 transition duration-300  w-full h-full ${imageSpans[idx % imageSpans.length]}`}
                         onClick={() => openModal(idx)}
                         style={{ aspectRatio: "3/4" }}
                     />
