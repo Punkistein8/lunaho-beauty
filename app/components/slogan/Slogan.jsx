@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
 const alexBrush = Alex_Brush({
-    subsets: ["cyrillic"],
+    subsets: ["latin"],
     weight: "400",
 });
 
