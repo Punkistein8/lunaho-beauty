@@ -6,6 +6,8 @@ import Navbar from "./components/navbar/Navbar";
 import PageTitle from "./components/pagetitle/PageTitle";
 import Socials from "./components/socials/Socials";
 import { Suspense } from "react";
+import MadeBy from "./components/footer/MadeBy.jsx";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -29,6 +31,7 @@ export default function RootLayout({ children }) {
         </Suspense>
 
         <Socials />
+        <MadeBy />
       </body>
     </html>
   );

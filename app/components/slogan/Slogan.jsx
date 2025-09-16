@@ -1,9 +1,9 @@
 'use client'
-import { Playwrite_AU_QLD } from "next/font/google";
+import { Alex_Brush } from "next/font/google";
 import { useState, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
-const playwrite = Playwrite_AU_QLD({
+const alexBrush = Alex_Brush({
     subsets: ["cyrillic"],
     weight: "400",
 });
@@ -35,7 +35,7 @@ const Slogan = () => {
 
     return (
         <div
-            className={`absolute top-22 md:top-[260px] right-5 md:left-20 font-bold text-right md:text-left text-black text-[30px] md:text-[70px] lg:text-[135px] leading-[normal] transition-all duration-500 ${playwrite.className}`}
+            className={`absolute top-22 md:top-[260px] right-5 md:left-20 font-bold text-right md:text-left text-[#757575] text-[48px] md:text-[70px] lg:text-[135px] leading-[normal] transition-all duration-500 ${alexBrush.className}`}
         >
             <AnimatePresence mode="wait">
                 {show && (

@@ -18,7 +18,7 @@ const PageTitle = () => (
             Luna
         </div>
         <div
-            className={`font-light text-black text-[12px] md:text-lg tracking-[2.70px] leading-[normal] ${khula.className}`}
+            className={`font-light text-black text-[10px] md:text-lg tracking-[1.5px] leading-[normal] ${khula.className}`}
         >
             makeup artist
         </div>

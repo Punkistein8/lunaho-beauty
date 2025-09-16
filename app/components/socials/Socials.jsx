@@ -32,7 +32,7 @@ const socials = [
 ];
 
 const Socials = () => (
-    <nav className="fixed bottom-6 left-1/2 transform -translate-x-1/2 bg-white/90 rounded-full shadow-lg px-4 py-2 flex gap-4 z-50 max-w-fit justify-center items-center select-none">
+    <nav className="fixed bottom-8 left-1/2 transform -translate-x-1/2 bg-white/90 rounded-full shadow-lg px-4 py-2 flex gap-4 z-50 max-w-fit justify-center items-center select-none">
         {socials.map((item) => (
             <a
                 key={item.label}
