@@ -9,7 +9,9 @@ const imagesByCategory = {
         "/no_makeup_look_1.jpeg",
         "/no_makeup_look_2.jpeg",
         "/no_makeup_look_3.jpeg",
-        "/no_makeup_look_6.jpeg"
+        "/no_makeup_look_6.jpeg",
+        "/no_makeup_look_7.jpeg",
+        "/no_makeup_look_8.jpeg"
     ],
     bridal: [
         "/weeding_1.jpeg",
@@ -17,17 +19,21 @@ const imagesByCategory = {
         "/weeding_3.jpeg",
         "/weeding_4.jpg",
         "/weeding_5.jpg",
-        "/home/img14.jpeg"
+        "/home/img14.jpeg",
+        "/weeding_6.jpg",
     ],
     social_makeup: [
-        "/spec_events_1.jpeg",
-        "/spec_events_2.jpeg",
-        "/spec_events_3.jpeg",
-        "/spec_events_4.jpeg",
-        "/spec_events_5.jpeg",
+        "/social_1.jpeg",
+        "/social_2.jpeg",
+        "/social_3.jpeg",
+        "/social_4.jpeg",
+        "/social_5.jpeg",
         "/social_6.jpg",
         "/social_7.jpg",
         "/social_8.jpg",
+        "/social_9.jpeg",
+        "/social_10.jpg",
+        "/social_11.jpg"
     ],
     fx_makeup: [
         "/fx_makeup_8.jpg",
