@@ -11,7 +11,11 @@ const imagesByCategory = {
         "/no_makeup_look_3.jpeg",
         "/no_makeup_look_6.jpeg",
         "/no_makeup_look_7.jpeg",
-        "/no_makeup_look_8.jpeg"
+        "/no_makeup_look_8.jpeg",
+        "/no_makeup_look_9.jpeg",
+        "/no_makeup_look_10.jpeg",
+        "/no_makeup_look_11.jpeg",
+
     ],
     bridal: [
         "/weeding_1.jpeg",
@@ -21,6 +25,13 @@ const imagesByCategory = {
         "/weeding_5.jpg",
         "/home/img14.jpeg",
         "/weeding_6.jpg",
+        "/weeding_7.jpeg",
+        "/weeding_8.jpeg",
+        "/weeding_9.jpeg",
+        "/weeding_10.jpeg",
+        "/weeding_11.jpeg",
+        "/weeding_12.jpeg",
+        "/weeding_13.jpeg"
     ],
     social_makeup: [
         "/social_1.jpeg",
